@@ -1,0 +1,148 @@
+body{
+    padding: 0;
+    margin: 0;
+
+}
+ .nav{
+     font-family: 'Bebas Neue', cursive;
+     height: 80px;
+     width: 100%;
+ }
+ .nav ul{
+     float: right;
+     margin-right: 200px;
+ }   
+ .nav li{
+     display: inline-block;
+     line-height: 80px;
+     margin: 0 20px;
+     list-style: none; 
+ }
+ .nav li a{
+      text-decoration: none;
+      color: #363958;
+      font-size: 13px;
+ }
+section{
+    height: 500px;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    padding: 2%;
+    margin-left: 5%;
+}
+img{
+    width: 100%;
+}
+.top-part img{
+    margin-right: 15%;
+}
+h1{
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+    font-size: 50px;
+
+}
+h2{
+    font-size: 40px;
+    font-family: 'Bebas Neue', cursive;
+    color: #363958;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    color:  #6C6C6C;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+#inside-color{
+    color: #363958;
+}
+#special-color{
+    color: #FF8367;
+}    
+.btn{
+    color: #FFFFFF;
+    text-decoration: none;
+    background-image: linear-gradient(45deg, orange, tomato);
+    padding: 12px 35px;
+    border-radius: 7px;
+}
+.about-part{
+    height: 600px;
+}
+.project-part{
+    background-color: #E5E5E5;
+    height: 700px;
+}
+.project-part .heading{
+    text-align: center;
+    padding: 25px 0 15px 0;
+    font-size: 30px;
+}
+.project{
+    width: 30%;
+    float: left;
+    margin-left: 2.5%;
+}
+.own-projects .heading{
+    text-align: center;
+    padding: 25px 0 15px 0;
+    font-size: 30px;
+}
+
+.chat{
+    margin-top: 200px;
+    height: 300px !important;
+}
+.box{
+    width: 80%;
+    height: 300px;
+    margin: 20px auto;
+}
+.mid-box{
+    width: 60%;
+    height: 175px;
+    margin: 10px auto;
+    background-color: #5D69E9;
+    border-radius: 7px;
+    text-align: center;
+}
+.chat li{
+    list-style: none;
+    float: left;
+    line-height: 175px;
+}
+.chat li a{
+    color: #FFFFFF;
+    text-decoration: none;  
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 400;
+}
+#WORK{
+    font-size: 40px;
+} 
+#chat-btn{
+    margin-left: 250px;
+
+}
+footer h4{
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #6C6C6C;
+    font-family: 'Bebas Neue', cursive;
+}
+footer div{
+    text-align: center;
+}
+footer div li{
+    list-style: none;
+     display: inline-block;
+}
+footer div li a{
+    text-decoration: none;
+    margin: 0px 10px;
+}
+footer img{
+    width: 30px;
+}
